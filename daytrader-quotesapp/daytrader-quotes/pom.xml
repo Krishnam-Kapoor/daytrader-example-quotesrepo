@@ -443,7 +443,6 @@
 						    <useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 			    		</configuration>
     				</plugin>
-    				<servers>
 
     				
     				<!-- Run the integration test and verify the results -->
