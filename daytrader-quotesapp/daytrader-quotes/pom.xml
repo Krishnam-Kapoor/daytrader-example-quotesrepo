@@ -444,12 +444,7 @@
 			    		</configuration>
     				</plugin>
     				<servers>
-                        <server>
-                            <id>docker.io</id>
-                            <username>krishnamkapoor</username>
-                            <password>Kr-08121998</password>
-                        </server>
-                    </servers> 
+
     				
     				<!-- Run the integration test and verify the results -->
                     <plugin>
