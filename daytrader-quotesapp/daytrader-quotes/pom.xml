@@ -355,7 +355,7 @@
   			<id>kubernetes</id>
   			<properties>
   				<daytraderKeystoreFolder>${project.basedir}/src/main/resources/external/ssl</daytraderKeystoreFolder>
-				<docker.image.prefix>${user.name}</docker.image.prefix>
+				<docker.image.prefix>krishnamkapoor</docker.image.prefix>
 				<dockerfile-maven-version>1.4.0</dockerfile-maven-version>	
 
                 <daytraderKeystoreFolder>${project.basedir}/src/main/resources/external/ssl</daytraderKeystoreFolder>
@@ -443,7 +443,13 @@
 						    <useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 			    		</configuration>
     				</plugin>
-    				
+    				<servers>
+                        <server>
+                            <id>docker.io</id>
+                            <username>krishnamkapoor</username>
+                            <password>Kr-08121998</password>
+                        </server>
+                    </servers> 
     				
     				<!-- Run the integration test and verify the results -->
                     <plugin>
